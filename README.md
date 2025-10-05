@@ -65,7 +65,7 @@
 ### Setup
 ```bash
 # Clone repository
-git clone https://github.com/ratnesh90859/SourceShield.git
+[git clone https://github.com/Kushagra-Chandel/Source-Shield.git]
 
 
 # Create virtual environment
