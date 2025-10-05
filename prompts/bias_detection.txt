@@ -1,0 +1,32 @@
+Analyze the following text for various types of bias. Consider:
+
+1. POLITICAL BIAS:
+   - Left-leaning indicators (progressive policies, social justice, regulation)
+   - Right-leaning indicators (conservative values, free market, deregulation)
+   - Neutral/balanced reporting
+
+2. EMOTIONAL BIAS:
+   - Highly emotional language (outrageous, shocking, devastating)
+   - Moderate emotional language (concerning, significant, notable)
+   - Neutral/objective language
+
+3. SOURCE CREDIBILITY:
+   - Use of credible sources and citations
+   - Anonymous sources vs named sources
+   - Official statements vs speculation
+
+4. LANGUAGE FRAMING:
+   - Word choice that suggests particular viewpoint
+   - Loaded language vs neutral terms
+   - Active vs passive voice implications
+
+TEXT TO ANALYZE: {text}
+
+Provide your analysis in the following JSON format:
+{
+  "political_bias": "left_leaning|right_leaning|neutral|balanced",
+  "political_confidence": 0.0-1.0,
+  "emotional_bias": "highly_emotional|moderately_emotional|neutral",
+  "emotional_confidence": 0.0-1.0,
+  ...
+}

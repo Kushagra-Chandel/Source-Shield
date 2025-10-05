@@ -1,0 +1,22 @@
+{
+  "sample_articles": [
+    {
+      "title": "Economic Growth Report",
+      "content": "The economy grew by 3.2% in the last quarter according to official government statistics. This represents a significant improvement from the previous quarter's 2.1% growth. Economists believe this trend will continue into next year.",
+      "expected_classification": "mostly_factual",
+      "expected_bias": "neutral"
+    },
+    {
+      "title": "Opinion on New Policy",
+      "content": "The new healthcare policy is absolutely terrible and will destroy our economy. I believe this is the worst decision the government has ever made. People should be outraged by this devastating policy.",
+      "expected_classification": "mostly_opinion",
+      "expected_bias": "highly_emotional"
+    },
+    {
+      "title": "Mixed News Report",
+      "content": "The unemployment rate dropped to 4.2% last month, according to the Bureau of Labor Statistics. This is encouraging news for job seekers. However, some economists worry that this might not be sustainable in the long term.",
+      "expected_classification": "mixed",
+      "expected_bias": "moderate"
+    }
+  ]
+}

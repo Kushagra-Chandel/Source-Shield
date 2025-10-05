@@ -1,0 +1,30 @@
+Compare the following two sources for differences in reporting, bias, and perspective:
+
+SOURCE 1: {source1}
+SOURCE 2: {source2}
+
+Analyze the following aspects:
+
+1. FACTUAL CONSISTENCY:
+   - Are the basic facts consistent between sources?
+   - Any contradictory information?
+
+2. FRAMING DIFFERENCES:
+   - How does each source frame the story?
+   - Different angles or perspectives?
+
+3. BIAS DIFFERENCES:
+   - Political bias comparison
+   - Emotional tone differences
+
+4. COMPLETENESS:
+   - Which source provides more comprehensive coverage?
+   - Missing information in either source?
+
+Return comparison in JSON format:
+{
+  "factual_consistency": "consistent|mostly_consistent|contradictory",
+  "framing_differences": "minimal|moderate|significant",
+  "bias_comparison": {...},
+  ...
+}

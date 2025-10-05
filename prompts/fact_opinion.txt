@@ -1,0 +1,26 @@
+Analyze the following text to distinguish between factual statements and opinions:
+
+1. FACTUAL STATEMENTS:
+   - Verifiable information (dates, numbers, statistics)
+   - Objective observations
+   - Quoted statements from identified sources
+   - Historical events
+   - Measurable data
+
+2. OPINION STATEMENTS:
+   - Subjective judgments or evaluations
+   - Predictions about future events
+   - Personal beliefs or interpretations
+   - Value judgments (good/bad, best/worst)
+   - Speculative language (might, could, seems, appears)
+
+TEXT TO ANALYZE: {text}
+
+Return analysis in JSON format:
+{
+  "overall_classification": "mostly_factual|mostly_opinion|mixed|neutral",
+  "fact_percentage": 0-100,
+  "key_factual_claims": ["list of main factual statements"],
+  "key_opinion_statements": ["list of main opinion statements"],
+  ...
+}
