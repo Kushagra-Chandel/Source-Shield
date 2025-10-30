@@ -1,0 +1,17 @@
+database:
+  mongodb_uri: "mongodb://localhost:27017/"
+  database_name: "sourceshield"
+  collection_name: "analysis_results"
+
+models:
+  sentiment_model: "cardiffnlp/twitter-roberta-base-sentiment-latest"
+  similarity_model: "sentence-transformers/all-MiniLM-L6-v2"
+  
+openai:
+  model: "gpt-3.5-turbo"
+  max_tokens: 1000
+  temperature: 0.3
+
+scraping:
+  timeout: 30
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
